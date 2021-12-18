@@ -1,0 +1,56 @@
+07-Dec-2021 14:06:11.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+07-Dec-2021 14:06:11.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+07-Dec-2021 14:06:11.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+07-Dec-2021 14:06:11.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+07-Dec-2021 14:06:11.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.18.0-305.el8.x86_64
+07-Dec-2021 14:06:11.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Dec-2021 14:06:11.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.312.b07-2.el8_5.x86_64/jre
+07-Dec-2021 14:06:11.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_312-b07
+07-Dec-2021 14:06:11.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+07-Dec-2021 14:06:11.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /root/apache-tomcat-8.5.73
+07-Dec-2021 14:06:11.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /root/apache-tomcat-8.5.73
+07-Dec-2021 14:06:11.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/root/tomcat/conf/logging.properties
+07-Dec-2021 14:06:11.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Dec-2021 14:06:11.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Dec-2021 14:06:11.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Dec-2021 14:06:11.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Dec-2021 14:06:11.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Dec-2021 14:06:11.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/root/tomcat
+07-Dec-2021 14:06:11.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/root/tomcat
+07-Dec-2021 14:06:11.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/root/tomcat/temp
+07-Dec-2021 14:06:11.603 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+07-Dec-2021 14:06:11.837 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Dec-2021 14:06:11.885 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Dec-2021 14:06:11.899 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1520 ms
+07-Dec-2021 14:06:12.014 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Dec-2021 14:06:12.014 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+07-Dec-2021 14:06:12.065 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.73/webapps/ROOT]
+07-Dec-2021 14:06:48.903 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [36,314] milliseconds.
+07-Dec-2021 14:06:48.932 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.73/webapps/ROOT] has finished in [36,868] ms
+07-Dec-2021 14:06:48.944 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.73/webapps/docs]
+07-Dec-2021 14:06:48.972 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.73/webapps/docs] has finished in [28] ms
+07-Dec-2021 14:06:48.973 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.73/webapps/examples]
+07-Dec-2021 14:06:49.624 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.73/webapps/examples] has finished in [651] ms
+07-Dec-2021 14:06:49.624 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.73/webapps/host-manager]
+07-Dec-2021 14:06:49.675 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.73/webapps/host-manager] has finished in [51] ms
+07-Dec-2021 14:06:49.675 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.73/webapps/manager]
+07-Dec-2021 14:06:49.743 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.73/webapps/manager] has finished in [68] ms
+07-Dec-2021 14:06:49.753 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Dec-2021 14:06:49.782 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 37861 ms
+07-Dec-2021 14:10:32.623 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/root/apache-tomcat-8.5.73/webapps/flipkart##1.0-SNAPSHOT.war]
+07-Dec-2021 14:10:32.690 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/root/apache-tomcat-8.5.73/webapps/flipkart##1.0-SNAPSHOT.war] has finished in [66] ms
+07-Dec-2021 14:16:43.110 INFO [http-nio-8080-exec-4] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/flipkart##1.0-SNAPSHOT]] after stop() had already been called. The second call will be ignored.
+07-Dec-2021 14:16:43.612 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/flipkart##1.0-SNAPSHOT]
+07-Dec-2021 14:18:10.903 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/root/apache-tomcat-8.5.73/webapps/flipkart##1.0-SNAPSHOT.war]
+07-Dec-2021 14:18:10.937 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/root/apache-tomcat-8.5.73/webapps/flipkart##1.0-SNAPSHOT.war] has finished in [34] ms
+07-Dec-2021 14:18:21.734 INFO [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/flipkart##1.0-SNAPSHOT]
+07-Dec-2021 14:18:54.151 INFO [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/root/apache-tomcat-8.5.73/webapps/flipkart##1.0-SNAPSHOT.war]
+07-Dec-2021 14:18:54.199 INFO [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/root/apache-tomcat-8.5.73/webapps/flipkart##1.0-SNAPSHOT.war] has finished in [48] ms
+07-Dec-2021 14:19:05.464 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/flipkart##1.0-SNAPSHOT]
+07-Dec-2021 14:20:00.050 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/root/apache-tomcat-8.5.73/webapps/flipkart##1.0-SNAPSHOT.war]
+07-Dec-2021 14:20:00.077 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/root/apache-tomcat-8.5.73/webapps/flipkart##1.0-SNAPSHOT.war] has finished in [27] ms
+07-Dec-2021 14:54:18.981 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Dec-2021 14:54:18.981 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Dec-2021 14:54:18.989 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Dec-2021 14:54:19.020 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Dec-2021 14:54:19.026 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

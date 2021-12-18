@@ -1,0 +1,27 @@
+17-Dec-2021 15:27:11.029 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+17-Dec-2021 15:27:11.029 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+17-Dec-2021 15:27:11.030 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+17-Dec-2021 15:27:11.041 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/http://3.111.31.253:8080'
+17-Dec-2021 15:27:11.041 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /root/apache-tomcat-8.5.73/webapps/http:##3.111.31.253:8080.war
+17-Dec-2021 15:31:17.998 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+17-Dec-2021 15:31:17.998 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+17-Dec-2021 15:31:18.003 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+17-Dec-2021 15:31:52.575 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+17-Dec-2021 15:31:54.112 INFO [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+17-Dec-2021 15:37:22.764 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+17-Dec-2021 16:34:14.264 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+17-Dec-2021 16:34:14.270 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/Royalpath'
+17-Dec-2021 16:34:14.270 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /root/apache-tomcat-8.5.73/webapps/Royalpath.war
+17-Dec-2021 16:51:08.737 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+17-Dec-2021 16:54:18.746 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+17-Dec-2021 16:54:18.758 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+17-Dec-2021 16:54:18.782 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+17-Dec-2021 16:54:18.785 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+17-Dec-2021 17:02:35.324 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+17-Dec-2021 17:02:35.324 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+17-Dec-2021 17:02:35.325 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+17-Dec-2021 17:02:35.329 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/SampleProject'
+17-Dec-2021 17:02:35.329 INFO [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /root/apache-tomcat-8.5.73/webapps/SampleProject.war
+17-Dec-2021 17:02:59.041 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+17-Dec-2021 17:03:01.296 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+17-Dec-2021 17:03:07.936 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'

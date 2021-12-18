@@ -1,0 +1,303 @@
+18-Dec-2021 08:26:15.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+18-Dec-2021 08:26:15.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+18-Dec-2021 08:26:15.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+18-Dec-2021 08:26:15.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Dec-2021 08:26:15.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.18.0-305.el8.x86_64
+18-Dec-2021 08:26:15.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Dec-2021 08:26:15.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.312.b07-2.el8_5.x86_64/jre
+18-Dec-2021 08:26:15.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_312-b07
+18-Dec-2021 08:26:15.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+18-Dec-2021 08:26:15.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /root/apache-tomcat-8.5.73
+18-Dec-2021 08:26:15.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /root/apache-tomcat-8.5.73
+18-Dec-2021 08:26:15.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/root/tomcat/conf/logging.properties
+18-Dec-2021 08:26:15.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2021 08:26:15.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Dec-2021 08:26:15.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Dec-2021 08:26:15.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Dec-2021 08:26:15.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Dec-2021 08:26:15.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/root/tomcat
+18-Dec-2021 08:26:15.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/root/tomcat
+18-Dec-2021 08:26:15.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/root/tomcat/temp
+18-Dec-2021 08:26:15.143 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+18-Dec-2021 08:26:15.347 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Dec-2021 08:26:15.437 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Dec-2021 08:26:15.449 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1544 ms
+18-Dec-2021 08:26:15.563 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Dec-2021 08:26:15.564 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+18-Dec-2021 08:26:15.611 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/root/apache-tomcat-8.5.73/webapps/http:##3.111.31.253:8080.war]
+18-Dec-2021 08:26:15.626 WARNING [localhost-startStop-1] org.apache.catalina.util.LifecycleMBeanBase.register Failed to register object [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/http:##3.111.31.253:8080]] with name [Catalina:j2eeType=WebModule,name=//localhost/http:##3.111.31.253:8080,J2EEApplication=none,J2EEServer=none] during component initialisation
+	javax.management.MalformedObjectNameException: Invalid character ':' in value part of property
+		at javax.management.ObjectName.construct(ObjectName.java:618)
+		at javax.management.ObjectName.<init>(ObjectName.java:1382)
+		at org.apache.catalina.util.LifecycleMBeanBase.register(LifecycleMBeanBase.java:156)
+		at org.apache.catalina.util.LifecycleMBeanBase.initInternal(LifecycleMBeanBase.java:58)
+		at org.apache.catalina.core.ContainerBase.initInternal(ContainerBase.java:905)
+		at org.apache.catalina.core.StandardContext.initInternal(StandardContext.java:6282)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:173)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:753)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:727)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1016)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1903)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+18-Dec-2021 08:26:15.677 WARNING [localhost-startStop-1] org.apache.catalina.util.LifecycleMBeanBase.register Failed to register object [org.apache.catalina.webresources.StandardRoot@6fc9eec3] with name [Catalina:type=WebResourceRoot,host=localhost,context=/http:##3.111.31.253:8080] during component initialisation
+	javax.management.MalformedObjectNameException: Invalid character ':' in value part of property
+		at javax.management.ObjectName.construct(ObjectName.java:618)
+		at javax.management.ObjectName.<init>(ObjectName.java:1382)
+		at org.apache.catalina.util.LifecycleMBeanBase.register(LifecycleMBeanBase.java:156)
+		at org.apache.catalina.util.LifecycleMBeanBase.initInternal(LifecycleMBeanBase.java:58)
+		at org.apache.catalina.webresources.StandardRoot.initInternal(StandardRoot.java:677)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:173)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4880)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5018)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:753)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:727)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1016)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1903)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+18-Dec-2021 08:26:15.677 WARNING [localhost-startStop-1] org.apache.catalina.util.LifecycleMBeanBase.register Failed to register object [org.apache.catalina.webresources.Cache@2eb5b2d3] with name [Catalina:type=WebResourceRoot,host=localhost,context=/http:##3.111.31.253:8080,name=Cache] during component initialisation
+	javax.management.MalformedObjectNameException: Invalid character ':' in value part of property
+		at javax.management.ObjectName.construct(ObjectName.java:618)
+		at javax.management.ObjectName.<init>(ObjectName.java:1382)
+		at org.apache.catalina.util.LifecycleMBeanBase.register(LifecycleMBeanBase.java:156)
+		at org.apache.catalina.webresources.StandardRoot.initInternal(StandardRoot.java:684)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:173)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4880)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5018)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:753)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:727)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1016)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1903)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+18-Dec-2021 08:26:15.759 WARNING [localhost-startStop-1] org.apache.catalina.util.LifecycleMBeanBase.register Failed to register object [WebappLoader[/http:##3.111.31.253:8080]] with name [Catalina:type=Loader,host=localhost,context=/http:##3.111.31.253:8080] during component initialisation
+	javax.management.MalformedObjectNameException: Invalid character ':' in value part of property
+		at javax.management.ObjectName.construct(ObjectName.java:618)
+		at javax.management.ObjectName.<init>(ObjectName.java:1382)
+		at org.apache.catalina.util.LifecycleMBeanBase.register(LifecycleMBeanBase.java:156)
+		at org.apache.catalina.util.LifecycleMBeanBase.initInternal(LifecycleMBeanBase.java:58)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:173)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5081)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:753)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:727)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1016)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1903)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+18-Dec-2021 08:26:15.790 SEVERE [localhost-startStop-1] org.apache.catalina.loader.WebappLoader.startInternal LifecycleException 
+	javax.management.MalformedObjectNameException: Invalid character ':' in value part of property
+		at javax.management.ObjectName.construct(ObjectName.java:618)
+		at javax.management.ObjectName.<init>(ObjectName.java:1382)
+		at org.apache.catalina.loader.WebappLoader.startInternal(WebappLoader.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5081)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:753)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:727)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1016)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1903)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+18-Dec-2021 08:26:15.790 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+	org.apache.catalina.LifecycleException: start: 
+		at org.apache.catalina.loader.WebappLoader.startInternal(WebappLoader.java:425)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5081)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:753)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:727)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1016)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1903)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: javax.management.MalformedObjectNameException: Invalid character ':' in value part of property
+		at javax.management.ObjectName.construct(ObjectName.java:618)
+		at javax.management.ObjectName.<init>(ObjectName.java:1382)
+		at org.apache.catalina.loader.WebappLoader.startInternal(WebappLoader.java:415)
+		... 13 more
+18-Dec-2021 08:26:15.790 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Error deploying web application archive [/root/apache-tomcat-8.5.73/webapps/http:##3.111.31.253:8080.war]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:757)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:727)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1016)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1903)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: org.apache.catalina.LifecycleException: start: 
+		at org.apache.catalina.loader.WebappLoader.startInternal(WebappLoader.java:425)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5081)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:753)
+		... 9 more
+	Caused by: javax.management.MalformedObjectNameException: Invalid character ':' in value part of property
+		at javax.management.ObjectName.construct(ObjectName.java:618)
+		at javax.management.ObjectName.<init>(ObjectName.java:1382)
+		at org.apache.catalina.loader.WebappLoader.startInternal(WebappLoader.java:415)
+		... 13 more
+18-Dec-2021 08:26:15.793 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/root/apache-tomcat-8.5.73/webapps/http:##3.111.31.253:8080.war] has finished in [180] ms
+18-Dec-2021 08:26:15.797 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/root/apache-tomcat-8.5.73/webapps/Royalpath.war]
+18-Dec-2021 08:26:16.768 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2021 08:26:16.865 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/root/apache-tomcat-8.5.73/webapps/Royalpath.war] has finished in [1,068] ms
+18-Dec-2021 08:26:16.903 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/root/apache-tomcat-8.5.73/webapps/SampleProject.war]
+18-Dec-2021 08:26:17.339 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2021 08:26:17.341 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/root/apache-tomcat-8.5.73/webapps/SampleProject.war] has finished in [438] ms
+18-Dec-2021 08:26:17.354 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.73/webapps/ROOT]
+18-Dec-2021 08:26:17.381 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.73/webapps/ROOT] has finished in [27] ms
+18-Dec-2021 08:26:17.381 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.73/webapps/docs]
+18-Dec-2021 08:26:17.401 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.73/webapps/docs] has finished in [20] ms
+18-Dec-2021 08:26:17.402 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.73/webapps/examples]
+18-Dec-2021 08:26:17.880 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.73/webapps/examples] has finished in [479] ms
+18-Dec-2021 08:26:17.880 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.73/webapps/host-manager]
+18-Dec-2021 08:26:17.911 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.73/webapps/host-manager] has finished in [31] ms
+18-Dec-2021 08:26:17.911 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/apache-tomcat-8.5.73/webapps/manager]
+18-Dec-2021 08:26:18.021 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/apache-tomcat-8.5.73/webapps/manager] has finished in [110] ms
+18-Dec-2021 08:26:18.024 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Dec-2021 08:26:18.034 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2585 ms
+18-Dec-2021 08:30:53.310 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/root/apache-tomcat-8.5.73/webapps/login##1.0.war]
+18-Dec-2021 08:30:53.899 INFO [http-nio-8080-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2021 08:30:53.901 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/root/apache-tomcat-8.5.73/webapps/login##1.0.war] has finished in [591] ms
+18-Dec-2021 08:31:21.830 INFO [http-nio-8080-exec-8] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Royalpath]] after stop() had already been called. The second call will be ignored.
+18-Dec-2021 08:31:22.332 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Royalpath]
+18-Dec-2021 08:31:27.219 INFO [http-nio-8080-exec-7] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SampleProject]] after stop() had already been called. The second call will be ignored.
+18-Dec-2021 08:31:27.723 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SampleProject]
+18-Dec-2021 08:34:37.830 INFO [http-nio-8080-exec-15] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/login##1.0]] after stop() had already been called. The second call will be ignored.
+18-Dec-2021 08:34:38.332 INFO [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/login##1.0]
+18-Dec-2021 08:34:38.838 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/login##1.0]
+18-Dec-2021 08:47:45.075 INFO [http-nio-8080-exec-23] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/root/apache-tomcat-8.5.73/webapps/login##1.0.war]
+18-Dec-2021 08:47:45.578 INFO [http-nio-8080-exec-23] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2021 08:47:45.580 INFO [http-nio-8080-exec-23] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/root/apache-tomcat-8.5.73/webapps/login##1.0.war] has finished in [505] ms
+18-Dec-2021 08:47:53.384 INFO [http-nio-8080-exec-25] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/login##1.0]
+18-Dec-2021 08:48:57.200 WARNING [http-nio-8080-exec-33] org.apache.catalina.util.LifecycleMBeanBase.register Failed to register object [org.apache.catalina.deploy.NamingResourcesImpl@40a63d60] with name [Catalina:type=NamingResources,host=localhost,context=/http:##3.111.31.253:8080] during component initialisation
+	javax.management.MalformedObjectNameException: Invalid character ':' in value part of property
+		at javax.management.ObjectName.construct(ObjectName.java:618)
+		at javax.management.ObjectName.<init>(ObjectName.java:1382)
+		at org.apache.catalina.util.LifecycleMBeanBase.register(LifecycleMBeanBase.java:156)
+		at org.apache.catalina.util.LifecycleMBeanBase.initInternal(LifecycleMBeanBase.java:58)
+		at org.apache.catalina.deploy.NamingResourcesImpl.initInternal(NamingResourcesImpl.java:959)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardContext.setNamingResources(StandardContext.java:2076)
+		at org.apache.catalina.core.StandardContext.getNamingResources(StandardContext.java:2027)
+		at org.apache.catalina.core.NamingContextListener.lifecycleEvent(NamingContextListener.java:212)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:252)
+		at org.apache.catalina.manager.ManagerServlet.undeploy(ManagerServlet.java:1512)
+		at org.apache.catalina.manager.HTMLManagerServlet.undeploy(HTMLManagerServlet.java:657)
+		at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:212)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:211)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:661)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+18-Dec-2021 08:48:57.202 WARNING [http-nio-8080-exec-33] org.apache.catalina.loader.WebappLoader.stopInternal LifecycleException 
+	javax.management.MalformedObjectNameException: Invalid character ':' in value part of property
+		at javax.management.ObjectName.construct(ObjectName.java:618)
+		at javax.management.ObjectName.<init>(ObjectName.java:1382)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:466)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5505)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.manager.ManagerServlet.undeploy(ManagerServlet.java:1512)
+		at org.apache.catalina.manager.HTMLManagerServlet.undeploy(HTMLManagerServlet.java:657)
+		at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:212)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:211)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:661)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+18-Dec-2021 08:48:57.716 INFO [http-nio-8080-exec-33] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/http:##3.111.31.253:8080]
+18-Dec-2021 08:49:15.009 INFO [http-nio-8080-exec-40] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/root/apache-tomcat-8.5.73/webapps/login##1.0.war]
+18-Dec-2021 08:49:15.446 INFO [http-nio-8080-exec-40] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2021 08:49:15.447 INFO [http-nio-8080-exec-40] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/root/apache-tomcat-8.5.73/webapps/login##1.0.war] has finished in [438] ms
